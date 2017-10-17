@@ -8,9 +8,14 @@
 }
 
 a {
-	color: #fff;
 	transition: color 0.5s;
 }
+
+
+body {
+	background: #f6f6f6;
+}
+
 
 header {
 	text-align:center;
@@ -20,13 +25,62 @@ header {
 	padding-bottom: 20px;
 }
 
+header a {
+	color: #fff;
+}
 
+.main-content {
+	width: 80%;
+	margin:0 auto;
+	background:#fff;
+	margin-top: 2%;
+	padding: 2%;
+}
+
+.main-content a {
+	color: #fff;
+}
+
+.main-content > .card {
+	padding: 2%;
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition:border-bottom 0.2s;
+}
+
+.card p {
+	font-size: 18px;
+	color: #757575;
+}
+
+.card p.f{
+	margin-top: 16px;
+}
+
+
+.card a {
+	color: #666;
+}
+
+.card {
+	padding: 2%;
+}
 
 .main-nav {
 	display: flex;
 	justify-content: space-around;
+	font-size: 18px;
 }
 
+.main-content a{
+	color: #000;
+}
+
+.card:hover {
+	border-bottom: 1px solid #777; 
+}
 
 .main-nav li {
 	align-self: center;
