@@ -183,10 +183,7 @@ pre {
 	font-weight: 700;
 }
 
-.container{ 
-	width:80%;
-	margin:0px auto;
-}
+
 
 /* Media Queries */
 
@@ -225,5 +222,10 @@ pre {
  	.intro img{
  		width: 150px;
  	}
+
+ 	.container{ 
+		width:80%;
+		margin:0px auto;
+	}
 
 }
