@@ -30,7 +30,7 @@ header a {
 }
 
 .main-content {
-	width: 80%;
+	width: 100%;
 	margin:0 auto;
 	background:#fff;
 	margin-top: 2%;
@@ -172,10 +172,11 @@ section {
 }
 
 pre {
-	padding: 2em;
-    border-radius: 2em;
+	padding: 1em;
+	font-size: 0.65em;
+    border-radius: 0.5em;
     background: #bcbcbc;
-    width: 80%;
+    width: 100%;
     margin: 1em auto;
 }
 
@@ -226,6 +227,17 @@ pre {
  	.container{ 
 		width:80%;
 		margin:0px auto;
+	}
+
+	.main-content {
+		width: 80%;
+	}
+
+	pre {
+		width: 80%;
+		font-size: 1em;
+		border-radius: 2em;
+		padding: 2em;
 	}
 
 }
